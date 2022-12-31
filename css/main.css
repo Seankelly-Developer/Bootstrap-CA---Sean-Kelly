@@ -642,9 +642,6 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  opacity: 0.9;
-
-
 }
 
 .img-thumbnail {
@@ -4817,6 +4814,7 @@ fieldset:disabled .btn {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  max-height: 350px;
 }
 
 .card-img,
@@ -9236,8 +9234,6 @@ fieldset:disabled .btn {
   border-radius: var(--bs-border-radius-sm) !important;
 }
 
-
-/*Uses scss variable to ensure 1rem is used which is 16px to correspond to figma design system*/
 .rounded-2 {
   border-radius: var(--bs-border-radius) !important;
 }
