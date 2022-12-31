@@ -1,14 +1,13 @@
 @import '../node_modules/bootstrap/scss/functions';
 
-
 //Globals - Taken from variables file - unnaffected by anything
 $enable-gradients: true !default;
 $enable-negative-margins: true !default;
 
 //Theme colours
 $primary: rgb(50, 51, 56);
-
 $secondary: rgb(180, 44, 180);
+$light: rgb(217, 217, 217);
 
 
 
@@ -26,12 +25,20 @@ $spacers: (
 
 //Radius
 
-$border-radius: 2rem;
+/*Altered to account for design system - 1rem = 16px*/
+$border-radius: 1rem;
 $border-radius-sm: .25rem;
 $border-radius-lg: 50rem;
 $border-radius-xl: 20rem;
 $border-radius-2xl: 2rem;
 $border-radius-pill: 50rem;
+
+
+.rounded-circle {
+    border-radius: 1rem;
+}
+
+
 
 //Variables
 @import '../node_modules/bootstrap/scss/variables';
