@@ -66,6 +66,9 @@
 				</div>
 			</nav>
 
+
+			
+
 			<!--Slogan and Image Section-->
 
 			<div class="container-fluid bg-light text-dark py-5 my-5 ">
@@ -110,36 +113,55 @@
 				</div>
 			  </div>
 			</div>
+
+
 			
+
 			<!--Comparison Game (index navbar links to this section of the page)-->
 
 
-					<div class="container-fluid bg-light text-dark py-5 my-5  text-center">
+					<div class="container-fluid bg-light text-dark py-5 my-5  text-center ">
 						<a id="gameLocation"></a>
 						<h1 class = "mb-5" >Which would you choose to go to?</h1>
 						<div class="row justify-content-md-center  align-items-center">
 						  <div class="col col-sm-4 p-2">
+
+							<div class = "containerGame">
+							<!--Card One-->
+							<div class = "hoverDiv">
 							<div class="card">
 								<img src="images/pop.jpg" class="card-img-top" alt="...">
 								<div class="card-body">
 								  <h2>Beiber Concert</h2>
 								</div>
 							  </div>
+							</div>
+						</div>
+							  
 						  </div>
 						  <div class="col-sm-auto">
 							<h1>VS</h1>
 						  </div>
 						  <div class="col col-sm-4 p-2">
+
+							<div class = "containerGame">
+							<!--Card Two-->
+							<div class = "hoverDiv">
 							<div class="card">
 								<img src="images/jazz.jpg" class="card-img-top" alt="...">
 								<div class="card-body">
 								  <h2>Jazz Concert</h2>
 								</div>
 							  </div>
+							</div>
 						  </div>
 						</div>
+					</div>
 				
 			</div>
+
+
+			
 
 
 			<!--Gallery Section-->
@@ -311,5 +333,13 @@
 
 			<!--Bootstrap JavaScript-->
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+			<!--JS for game popup-->
+			<script>
+				$('#myModal').on('shown.bs.modal', function () {
+				$('#myInput').trigger('focus')
+				})
+			</script>
+
 	</body>
 </html>

@@ -12,6 +12,21 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/*Game hover styling*/
+
+
+.hoverDiv {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerGame:hover .hoverDiv {
+  opacity: 1;
+
+}
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
