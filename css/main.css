@@ -6,94 +6,12 @@
   border-radius: 1rem;
 }
 
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 
-/*Game hover styling*/
+/*Fade in effect for images*/
 
-
-.hoverDiv {
-  opacity: 0.8;
-  transition: all 0.3s ease-in-out;
-}
-
-.containerGame:hover .hoverDiv {
-  opacity: 1;
-
-}
-
-/*Take away text decoration for links*/
-
-.noDecorationLink {
-  text-decoration: none;
-}
-
-
-
-/*modal css*/
-
-/* The Modal*/
-.modal {
-  text-align: center;
-  animation: fadeInAnimation ease 1.5s;
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 100%;
-  text-align: center;
-}
-
-.modal-header {
-  text-align: center;
-
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  border: none;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/*Fade in image animation*/
 
 .topImg {
-  animation: fadeInAnimation ease 4s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -108,10 +26,35 @@
   }
 }
 
+/*fade in effect for comparison game*/
+
+.containerGame {
+
+  opacity: 1;
+}
+
+.hoverDiv {
+  opacity: 0.8;
+
+}
+
+.containerGame:hover .hoverDiv {
+
+  opacity: 1;
+}
 
 
 
+.noDecorationLink {
+  text-decoration: none;
+}
 
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -752,7 +695,6 @@ progress {
   border-radius: 1rem;
   max-width: 100%;
   height: auto;
-
 }
 
 .figure {
@@ -4916,7 +4858,6 @@ fieldset:disabled .btn {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
-  height: 100%;
 }
 
 .card-img,
@@ -13929,42 +13870,3 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=main.css.map */
-
-/*Gallery CSS*/
-.gallery {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
-}
-
-.gallery .pics {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.gallery .animation {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
-}
