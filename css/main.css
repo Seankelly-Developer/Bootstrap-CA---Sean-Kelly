@@ -7,6 +7,9 @@
 }
 
 
+
+
+
 /*Fade in effect for images*/
 
 
@@ -2228,6 +2231,18 @@ progress {
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
+
+.nextBtn {
+  width: 20%;
+  margin: 0 auto;
+
+}
+
+.quantitySelector {
+  width: 20%;
+  margin: 0 auto;
+}
+
 
 .table-secondary {
   --bs-table-color: #000;

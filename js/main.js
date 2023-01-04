@@ -39,5 +39,5 @@ window.onclick = function(event) {
   }
 }
 
-//Quantity Selector JS
 
+//Price selector functionality
