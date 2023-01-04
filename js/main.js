@@ -38,3 +38,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+//Quantity Selector JS
+

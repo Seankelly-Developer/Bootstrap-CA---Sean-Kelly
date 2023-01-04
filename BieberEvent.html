@@ -118,23 +118,30 @@
 							<p class="fw-semibold text-uppercase mt-4">Choose your tickets!
 								 <br><br></p>
 
-								 
-								 <div class="range">
-									<input type="range" min="1" max="7" steps="1" value="1">
+								 <div class="btn-group">
+									<input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" />
+									<label class="btn btn-secondary" for="option1">Standing Ticket</label>
+								  
+									<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+									<label class="btn btn-secondary" for="option2">Inner Seats</label>
+								  
+									<input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" />
+									<label class="btn btn-secondary" for="option3">Outer Seats</label>
 								  </div>
-								  <ul class="range-labels">
-									<li class="active selected">Today</li>
-									<li>2 days</li>
-									<li>3 days</li>
-									<li>4 days</li>
-									<li>5 days</li>
-									<li>6 days</li>
-									<li>7 days</li>
-								  </ul>
-						</div>
+
+								  <!--Quantity Selector-->
+
+
+								  
+					</div>
+
+
+
+					<!--Information changes based on the option selection on the ticket type selector-->
+						
 						<div class="col-md-6 p-2 text-center">
 							<p class="fw-semibold text-uppercase mt-4">
-								 Ticket Options<br><br></p>
+								 Ticket Price<br><br></p>
 
 								 <p class = "fw-demibold mt-4">
                                  Justin Drew Bieber is a Canadian singer. Bieber is recognized for his genre-melding musicianship and has played an influential role in modern-day popular music.<br>
@@ -143,7 +150,7 @@
 							
 						</div>
 						
-						
+					</div>
 					</div>
 				</div>
 			</div>
@@ -243,5 +250,6 @@
 
 
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+			<script src = "js/main.js"></script>
 	</body>
 </html>
