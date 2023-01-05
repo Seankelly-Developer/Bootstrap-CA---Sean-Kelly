@@ -362,6 +362,13 @@ a>code {
   color: inherit;
 }
 
+
+/*CSS for the tickets*/
+
+
+
+
+
 kbd {
   padding: 0.1875rem 0.375rem;
   font-size: 0.875em;
@@ -374,6 +381,7 @@ kbd kbd {
   padding: 0;
   font-size: 1em;
 }
+
 
 figure {
   margin: 0 0 1rem;
