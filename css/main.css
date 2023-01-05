@@ -2535,8 +2535,12 @@ ul {
 .personalForm {
   text-align: center;
   display: inline-block;
+
 }
 
+.personalForm .radio {
+  margin: 0 auto;
+}
 
 .form-control-sm::file-selector-button {
   padding: 0.25rem 0.5rem;
