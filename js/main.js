@@ -40,4 +40,3 @@ window.onclick = function(event) {
 }
 
 
-//Price selector functionality
